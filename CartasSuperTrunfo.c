@@ -5,8 +5,26 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
+ 
+// Estrutura para armazenar dados 
 
 int main() {
+     int População_SaoPulo=12345678;
+     float Area_Sp=8455.0;
+     double Pib=3130333.00;
+     int Pontos_turisticos=05;
+     char Codigo_da,_carta[4]=01;
+     char nome_da_cidade[20]="SaoPaulo";
+
+     //Cadastro da primeira carta 
+     printf("Cadastro da primeira carta")
+
+
+
+
+
+
+    
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
