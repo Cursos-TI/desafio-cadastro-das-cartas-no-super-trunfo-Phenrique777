@@ -8,17 +8,95 @@
  
 // Estrutura para armazenar dados 
 
+//Declarando variaveis carta 1
+
 int main() {
-     int População_SaoPulo=12345678;
-     float Area_Sp=8455.0;
-     double Pib=3130333.00;
-     int Pontos_turisticos=05;
-     char Codigo_da,_carta[4]=01;
-     char nome_da_cidade[20]="SaoPaulo";
+     int populacao1;
+     float pib1;
+     int pontosturisticos1;
+     float area1;
+     char codigo1[4];
 
-     //Cadastro da primeira carta 
-     printf("Cadastro da primeira carta")
 
+// Declarando variaveis para carta 2
+      
+     int populacao2;
+     float pib2;
+     int pontosturisticos2;
+     float area2;
+     char codigo2[4];
+
+//Entrada de dados da primeira carta 1
+     
+     printf("cadastro da primeira carta :\n");
+
+     printf("População:  ");
+     scanf("%d", &populacao1);
+
+     printf("PIB: ");
+     scanf("%f", &pib1);
+
+     printf("Numero de pontos turisticos:  ");
+     scanf("%d",&pontosturisticos1);
+
+     printf("Area:  ");
+     scanf("%f", &area1);
+
+     printf("Codigo  :");
+     scanf("%s", codigo1);  
+
+
+//Entrada de dados da segunda carta 2
+  
+     printf("Cadastro da segunda carta:\n"); 
+
+     printf("População:   ");
+     scanf("%d", &populacao2);
+
+     printf("PIB:  ");
+     scanf("%f", &pib2);
+
+     printf("Numeros de pontos turisticos:   ");
+     scanf("%d", &pontosturisticos2);
+
+     printf("Area:  ");
+     scanf("%f", &area2);
+
+     printf("Codigo:  ");
+     scanf("%s", codigo2);
+
+//Exibição dos dados da primeira carta
+     
+     print("\nDados da primeira carta:\n");
+
+     printf("População:%d\n", populacao1);
+     printf("PIB:%2.f\n", pib1);
+     printf("Numeros de pontos turisticos:%d\n", pontosturisticos1);
+     printf("Area:%2.f\n",area1);
+     printf("Codigo:%s,codigo1");
+
+
+//Exibição de dados da segunda carta
+
+     printf("\nDados da segunda carta:\n");
+
+     printf("População:%d\n", populacao2);
+     printf("PIB:%2.f\n", pib2);
+     printf("Numeros de pontos turisticos:%dn", pontosturisticos2);
+     printf("Area:%2.f\n", area2);
+
+
+
+
+
+
+
+
+    
+
+
+
+    
 
 
 
@@ -36,4 +114,6 @@ int main() {
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+   
+    return 0;
 }
