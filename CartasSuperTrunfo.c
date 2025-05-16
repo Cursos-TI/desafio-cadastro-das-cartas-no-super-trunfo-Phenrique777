@@ -47,7 +47,7 @@ int main() {
 
 //Entrada de dados da segunda carta 2
   
-     printf("Cadastro da segunda carta:\n"); 
+     printf("\nCadastro da segunda carta:\n"); 
 
      printf("População:   ");
      scanf("%d", &populacao2);
@@ -81,9 +81,9 @@ int main() {
 
      printf("População:%d\n", populacao2);
      printf("PIB:%.2f\n", pib2);
-     printf("Numeros de pontos turisticos:%dn", pontosturisticos2);
+     printf("Numeros de pontos turisticos:%d\n", pontosturisticos2);
      printf("Area:%.2f\n", area2);
-     printf("Codigo:%s\n");
+     printf("Codigo: %s\n",codigo2);
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
